@@ -22,6 +22,30 @@ Na této stránce naleznete zapojení a postup nastavení pro práci s&nbsp;výv
 > Doma můžete využít návod pro instalaci zde:
 > [&rarr; e-MiŠ.cz/ESP: Nastavení IDE](http://mis.e-mis.cz/index.php/ESP:_Nastaven%C3%AD_IDE)
 
+## Kód pro čtení stavu tlačítka
+Pro čtení stavu tlačítka v&nbsp;našem zapojení použijte:
+
+```cpp
+define tlacitko = D1;
+define led = D2;
+
+boolean stavTlacitka = HIGH; //tlačítko je na začátku nestisknuté
+  
+void setup() {
+  pinMode(tlacitko, INPUT_PULLUP); //vstup - tlačítko
+  pinMode(cervena, OUTPUT); //výstup - LED dioda
+  }
+
+void loop() {
+  //uloží aktuální stav tlačítka - zjistí, zda je stisklé
+  stavTlacitka = digitalRead(tlacitko);
+  if(stavTlacitka == LOW) {
+    // co se má stát, když bude tlačítko stisknuté?
+  }
+  delay(10);
+}
+```
+
 ## Nastavení simulátoru TinkerCAD.com
 
 Pro vyzkoušení doma můžete využít simulátor na [TinkerCAD.com](https://www.tinkercad.com).
