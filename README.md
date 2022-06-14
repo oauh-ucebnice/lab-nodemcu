@@ -7,6 +7,21 @@ Na této stránce naleznete zapojení a postup nastavení pro práci s&nbsp;výv
 
 ![Elektrotechnické schéma zapojení](img/schema.png)
 
+## Příprava prostředí ve škole
+1. Ve škole můžete využít nainstalované vývojové prostředí Arduino IDE (pokud na dané učebně je nainstalované).
+1. Je potřeba nainstalovat knihovny pro NodeMCU z&nbsp;disku `I:`
+    - Spusťte:<br /> `i:\aplikace\Arduino-install\_krok2_extract-esp8266.bat`
+    - Potvrďte přepsání všech souborů: `A`
+    ![Rozbalení knihoven NodeMCU](img/setup-010_extract.png)
+    - Knihovny se instalují do vašeho lokálního účtu na konkrétním počítači — pokud sedíte na počítači poprvé, musíte je nainstalovat.
+
+1. Připojte vývojovou desku.
+1. V&nbsp;Arduino IDE zvolte port: obvykle je to `COM 3` nebo `COM 4`, ale může se lišit:
+    ![Volba portu v&nbsp;Arduino IDE](img/setup-020_port.png)
+
+> Doma můžete využít návod pro instalaci zde:
+> [&rarr; e-MiŠ.cz/ESP: Nastavení IDE](http://mis.e-mis.cz/index.php/ESP:_Nastaven%C3%AD_IDE)
+
 ## Nastavení simulátoru TinkerCAD.com
 
 Pro vyzkoušení doma můžete využít simulátor na [TinkerCAD.com](https://www.tinkercad.com).
