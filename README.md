@@ -26,8 +26,8 @@ Na této stránce naleznete zapojení a postup nastavení pro práci s&nbsp;výv
 Pro čtení stavu tlačítka v&nbsp;našem zapojení použijte:
 
 ```cpp
-define tlacitko = D1;
-define led = D2;
+#define tlacitko D1;
+#define led D2;
 
 boolean stavTlacitka = HIGH; //tlačítko je na začátku nestisknuté
   
