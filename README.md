@@ -50,7 +50,7 @@ void loop() {
 
 Pro vyzkoušení doma můžete využít simulátor na [TinkerCAD.com](https://www.tinkercad.com).
 
-Postup nastavení:
+### Postup nastavení:
 
 1. Přihlašte se nebo si vytvořte nový osobní účet<br />![Web TinkerCAD.com](img/tinkercad/tinkercad_010_login.png)<br />![Vytvoření osobního účtu](img/tinkercad/tinkercad_020_osobni.png)
 <br />![Přihlášení](img/tinkercad/tinkercad_030_login-jmeno-helso.png)
@@ -60,3 +60,7 @@ Postup nastavení:
 1. Přetáhněte na plochu další prvky a vytvořte zapojení úlohy podle schématu:<br />
 ![Zapojení úlohy](img/obvod.png)
 1. Přepněte se do záložky _Kód_. Zapište kód a spusťte simulaci!<br />_Arduino Uno má vstupně/výstupní piny označeny `A0`, `A1`,... místo označení `D0`, `D1`,&hellip; u NodeMCU. Zbytek kód pro naše účely je stejný._<br />![](img/tinkercad/tinkercad_070_kod-a-spusteni.png)
+
+### Sdílení řešení:
+1. Nastavte viditelnost a odešlete odkaz pro sdílení:<br />
+    ![Vytvoření odkazu pro sdílení](img/tinkercad/tinkercad_080_sdileni.png)
