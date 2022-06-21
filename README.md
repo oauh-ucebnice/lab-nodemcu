@@ -27,13 +27,11 @@ Pro čtení stavu tlačítka v&nbsp;našem zapojení použijte:
 
 ```cpp
 #define tlacitko D1
-#define led D2
 
 boolean stavTlacitka = HIGH; //tlačítko je na začátku nestisknuté
   
 void setup() {
   pinMode(tlacitko, INPUT_PULLUP); //vstup - tlačítko
-  pinMode(cervena, OUTPUT); //výstup - LED dioda
   }
 
 void loop() {
