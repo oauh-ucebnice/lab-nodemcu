@@ -1,11 +1,8 @@
-# Praktická úloha &mdash; programování NodeMCU 1.0
+# Praktická úloha &mdash; čidlo vlhkosti a teploty DHT11
 
-Na této stránce naleznete zapojení a postup nastavení pro práci s&nbsp;vývojovou deskou NodeMCU 1.0 v&nbsp;hodinách Programování 1 na oboru Informační technologie na [Obchodní akademii, Vyšší odborné škole a Jazykové škole s&nbsp;právem státní jazykové zkoušky Uherské Hradiště](https://www.oauh.cz).
+Na této stránce naleznete zadání úkolu zprovoznění čidla a teploty DHT11 s počítačem Arduino Uno. Úlohu využíváme v&nbsp;hodinách Praktického projektu na oboru Informační technologie na [Obchodní akademii, Vyšší odborné škole a Jazykové škole s&nbsp;právem státní jazykové zkoušky Uherské Hradiště](https://www.oauh.cz).
 
-## Schéma zapojení úlohy:
-![Zapojení úlohy](img/obvod.png)
-
-![Elektrotechnické schéma zapojení](img/schema.png)
+## Úkoly:
 
 ## Příprava prostředí ve škole
 1. Ve škole můžete využít nainstalované vývojové prostředí Arduino IDE (pokud na dané učebně je nainstalované).
