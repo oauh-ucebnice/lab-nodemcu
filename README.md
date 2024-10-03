@@ -2,48 +2,32 @@
 
 Na této stránce naleznete zadání úkolu zprovoznění čidla a teploty DHT11 s počítačem Arduino Uno. Úlohu využíváme v&nbsp;hodinách Praktického projektu na oboru Informační technologie na [Obchodní akademii, Vyšší odborné škole a Jazykové škole s&nbsp;právem státní jazykové zkoušky Uherské Hradiště](https://www.oauh.cz).
 
-## Úkoly:
+## Úkoly
 
-## Příprava prostředí ve škole
-1. Ve škole můžete využít nainstalované vývojové prostředí Arduino IDE (pokud na dané učebně je nainstalované).
-1. Je potřeba nainstalovat knihovny pro NodeMCU z&nbsp;disku `I:`
-    - Spusťte:<br /> `i:\aplikace\Arduino-install\_krok2_extract-esp8266.bat`
-    - Potvrďte přepsání všech souborů: `A`
-    ![Rozbalení knihoven NodeMCU](img/setup-010_extract.png)
-    - Knihovny se instalují do vašeho lokálního účtu na konkrétním počítači — pokud sedíte na počítači poprvé, musíte je nainstalovat.
+1. Zprovoznit blikání jedné diody
 
-1. Připojte vývojovou desku.
-1. V&nbsp;Arduino IDE zvolte port: obvykle je to `COM 3` nebo `COM 4`, ale může se lišit:
-    ![Volba portu v&nbsp;Arduino IDE](img/setup-020_port.png)
+2. Vytvořit „animovaný blinkr“ se třemi diodami
 
-> Doma můžete využít návod pro instalaci zde:
-> [&rarr; e-MiŠ.cz/ESP: Nastavení IDE](http://mis.e-mis.cz/index.php/ESP:_Nastaven%C3%AD_IDE)
+3. Zprovoznit čidlo teploty a vlhkosti DHT11/DHT22
 
-## Kód pro čtení stavu tlačítka
-Pro čtení stavu tlačítka v&nbsp;našem zapojení použijte:
+4. Challenge: 
+  - Když teplota na čidle přesáhne 22 °C, rozsviťte červenou diodu
+  - Když vlhkost na čidle přesáhne 55 %, rozsviťte žlutou diodu  
+    (Můžete nasimulovat tak, že na čidle podržíte prst &mdash; nedýchejte na něj!!!)
+	
 
-```cpp
-#define tlacitko D1
+### Důležité:
 
-boolean stavTlacitka = HIGH; //tlačítko je na začátku nestisknuté
-  
-void setup() {
-  pinMode(tlacitko, INPUT_PULLUP); //vstup - tlačítko
-  }
+> !!! Než připojíte elektřinu, ukažte zapojení učiteli!!!
 
-void loop() {
-  //uloží aktuální stav tlačítka - zjistí, zda je stisklé
-  stavTlacitka = digitalRead(tlacitko);
-  if(stavTlacitka == LOW) {
-    // co se má stát, když bude tlačítko stisknuté?
-  }
-  delay(10);
-}
-```
+### Další pravidla: 
+
+- Použijte libovolné zdroje.
+- Použijte stavebnici.
 
 ## Nastavení simulátoru TinkerCAD.com
 
-Pro vyzkoušení doma můžete využít simulátor na [TinkerCAD.com](https://www.tinkercad.com).
+Pro vyzkoušení můžete využít kromě hardwarového zařízení i simulátor na [TinkerCAD.com](https://www.tinkercad.com).
 
 ### Postup nastavení:
 
